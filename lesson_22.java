@@ -6,7 +6,7 @@ public class lesson_22 {
     }
 
     public interface CanFly {
-        public void iBelieve();
-        public void iCanFly();
+        void iBelieve();
+        void iCanFly();
     }
 }
