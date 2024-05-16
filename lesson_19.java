@@ -12,10 +12,12 @@ public class lesson_19 {
     }
 
     public static class Cat extends Pet {
+        @Override
         public String getName() {
             return "Дичь";
         }
 
+        @Override
         public Cat getChild() {
             return new Cat();
         }
@@ -23,10 +25,12 @@ public class lesson_19 {
     }
 
     public static class Dog extends Pet {
+        @Override
         public String getName() {
             return "Барбос";
         }
 
+        @Override
         public Dog getChild() {
             return new Dog();
         }
